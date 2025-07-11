@@ -1,5 +1,91 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: black;
+}
+
+*{
+    /*border: 1px dashed red;*/
+    font-family:'Courier New', Courier, monospace;
+}
+
+.masterbox{
+    border-radius: 10px;
+    border-color: red;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 400px;
+    width: 600px;
+    margin: 10% auto;
+    
+}
+
+.image{
+    height: 100%;
+    width: 200px;
+}
+
+.image img:nth-child(1){
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.parrafos{
+    width: 400px;
+    height: 100%;
+    margin: 15px auto;
+}
+
+.parrafos h1{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.parrafos h3{
+    margin-top: 20px;
+    text-align: left;
+    color: blue;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.parrafos h2{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.parrafos p{
+    font-size: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.Actitudes-cazador{
+    
+    display: flex;
+    height: 30px;
+    width: 400px;
+}
+
+.Actitudes-cazador p{
+    font-size: 10px;
+    margin-left: 60px;
+    margin: 6px auto;
+    background-color: rgb(226, 226, 232);
+    border-radius: 8px;
+}
+
+button{
+    margin-left: 9%;
+}
+
+.parrafo-funcion{
+    text-align: center;
+    font-size: 10px;
+    color: blue;
 }
